@@ -48,8 +48,7 @@ TO TEST WITH POSTMAN, Use:
 
 `ForumAPICollection.json`
 
-**Import Postman Collection:
-**
+Import Postman Collection:
 
 Open Postman.
 Click the "Import" button at the top left.
