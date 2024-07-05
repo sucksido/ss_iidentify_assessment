@@ -42,3 +42,25 @@ Update the connection string in the appsettings.json file to match your SQL Serv
 `dotnet ef database update`
 
 `dotnet run`
+
+
+TO TEST WITH POSTMAN, Use:
+
+`ForumAPICollection.json`
+
+**Import Postman Collection:
+**
+
+Open Postman.
+Click the "Import" button at the top left.
+Select the "Raw Text" tab.
+Copy the JSON collection provided below and paste it into the text area.
+Click "Continue" and then "Import".
+Generate JWT Token:
+
+Use the Register User endpoint to create a new user.
+Use the Login User endpoint with the registered user's credentials to get a JWT token.
+Use the JWT Token:
+
+For all secured endpoints (like creating posts, adding comments, etc.), add the JWT token to the Authorization header in Postman with the prefix Bearer.
+
